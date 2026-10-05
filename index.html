@@ -1,704 +1,277 @@
 <!DOCTYPE html>
 <html lang="ta">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Vijayaruban ❤️ Mathuyalini</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vijayaruban ❤️ Mathuyalini</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Noto+Sans+Tamil:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+<body class="locked">
 
-<body>
+<div id="progress"></div>
+<canvas id="fx"></canvas>
 
-<!-- ============================= -->
-<!-- CINEMATIC OPENING -->
-<!-- ============================= -->
-
+<!-- ================= OPENING ================= -->
 <div id="opening">
+  <div class="half half-l"></div>
+  <div class="half half-r"></div>
+  <div class="seam"></div>
+  <div class="stars"></div>
 
-    <div class="stars"></div>
-
-    <div class="opening-glow"></div>
-
-    <div class="om">ॐ</div>
-
-    <p class="sanskrit">
-        ॐ श्री गणेशाय नमः
-    </p>
-
-    <div class="shiva-frame">
-        <img src="assets/shiva-parvathi.jpg" alt="Shiva and Parvati">
+  <div class="open-center">
+    <div class="sacred">
+      <span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span>
+      <div class="shiva-frame">
+        <img src="assets/shiva-parvathi.jpg" alt="Shiva and Parvati" />
+      </div>
     </div>
 
-    <div class="opening-text">
+    <p class="sanskrit">ॐ श्री गणेशाय नमः</p>
+    <p class="tamil-line">சிவபெருமான் பார்வதி தேவியின் அருளுடன்</p>
+    <p class="en-line">With the blessings of Lord Shiva &amp; Goddess Parvati</p>
 
-        <p class="tamil-small">
-            சிவபெருமான் பார்வதி தேவியின் அருளுடன்
-        </p>
-
-        <p class="english-small">
-            With the blessings of Lord Shiva & Goddess Parvati
-        </p>
-
-    </div>
-
-    <button id="openInvitation">
-
-        <span>திறக்க</span>
-
-        <small>OPEN INVITATION</small>
-
-        <b>✦</b>
-
+    <button id="openBtn" class="open-btn">
+      <span class="t">திறக்க</span>
+      <small>OPEN INVITATION</small>
     </button>
-
-    <div class="scroll-hint">
-        ✧ Tap to begin our beautiful journey ✧
-    </div>
-
+    <p class="tap-hint">✧ Tap to begin our beautiful journey ✧</p>
+  </div>
 </div>
 
-
-<!-- ============================= -->
-<!-- MAIN WEBSITE -->
-<!-- ============================= -->
-
+<!-- ================= SITE ================= -->
 <main id="invitation">
 
-    <!-- NAVIGATION -->
-
-    <nav class="navbar">
-
-        <div class="nav-logo">
-            V ❤️ M
-        </div>
-
-        <div class="nav-links">
-
-            <a href="#home">Home</a>
-            <a href="#details">Details</a>
-            <a href="#families">Families</a>
-            <a href="#story">Our Story</a>
-            <a href="#gallery">Gallery</a>
-
-        </div>
-
-        <button id="musicButton">
-            ♫
-        </button>
-
-    </nav>
-
-
-    <!-- ============================= -->
-    <!-- HERO -->
-    <!-- ============================= -->
-
-    <section id="home" class="hero">
-
-        <div class="hero-particles"></div>
-
-        <div class="lotus lotus-left">❀</div>
-        <div class="lotus lotus-right">❀</div>
-
-        <div class="hero-content">
-
-            <p class="eyebrow">
-                ✦ திருமண அழைப்பிதழ் ✦
-            </p>
-
-            <p class="english-eyebrow">
-                WEDDING INVITATION
-            </p>
-
-            <h1>
-                விஜயருபன்
-                <span>♡</span>
-                மதுயாலினி
-            </h1>
-
-            <h2>
-                Vijayaruban <span>♥</span> Mathuyalini
-            </h2>
-
-            <div class="divider">
-                <span>✦</span>
-                <i></i>
-                <span>❦</span>
-                <i></i>
-                <span>✦</span>
-            </div>
-
-            <p class="hero-message">
-
-                இரண்டு இதயங்கள்...<br>
-                ஒரு அழகான வாழ்க்கை...<br>
-                ஒரு புதிய தொடக்கம்...
-
-            </p>
-
-            <p class="hero-message-en">
-
-                Two hearts.<br>
-                One beautiful journey.<br>
-                A forever beginning.
-
-            </p>
-
-            <div class="date-preview">
-
-                <strong>15</strong>
-
-                <div>
-                    <span>JULY</span>
-                    <small>2027</small>
-                </div>
-
-            </div>
-
-            <div class="hero-scroll">
-                ↓
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ============================= -->
-    <!-- BLESSING -->
-    <!-- ============================= -->
-
-    <section class="blessing reveal">
-
-        <div class="mandala">✺</div>
-
-        <p class="section-tamil">
-            இறைவன் அருளால்...
-        </p>
-
-        <p class="section-english">
-            With the blessings of the Almighty
-        </p>
-
-        <p class="blessing-text">
-
-            எங்கள் வாழ்வின் புதிய அத்தியாயத்தை
-            உங்களுடன் இணைந்து கொண்டாட
-            அன்புடன் அழைக்கிறோம்.
-
-        </p>
-
-        <p class="blessing-text-en">
-
-            With hearts full of love and happiness,
-            we invite you to celebrate the beginning
-            of our beautiful new chapter with us.
-
-        </p>
-
-    </section>
-
-
-    <!-- ============================= -->
-    <!-- COUNTDOWN -->
-    <!-- ============================= -->
-
-    <section class="countdown-section reveal">
-
-        <p class="section-tamil">
-            இன்னும் எத்தனை நாட்கள்? ✨
-        </p>
-
-        <p class="section-english">
-            Counting the moments until our forever...
-        </p>
-
-        <div class="countdown">
-
-            <div class="time-box">
-                <strong id="days">00</strong>
-                <span>Days</span>
-                <small>நாட்கள்</small>
-            </div>
-
-            <div class="time-box">
-                <strong id="hours">00</strong>
-                <span>Hours</span>
-                <small>மணி</small>
-            </div>
-
-            <div class="time-box">
-                <strong id="minutes">00</strong>
-                <span>Minutes</span>
-                <small>நிமிடங்கள்</small>
-            </div>
-
-            <div class="time-box">
-                <strong id="seconds">00</strong>
-                <span>Seconds</span>
-                <small>விநாடிகள்</small>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ============================= -->
-    <!-- DETAILS -->
-    <!-- ============================= -->
-
-    <section id="details" class="details-section">
-
-        <div class="section-title reveal">
-
-            <span>✦</span>
-
-            <p>திருமண விவரங்கள்</p>
-
-            <h2>Wedding Details</h2>
-
-            <span>✦</span>
-
-        </div>
-
-
-        <div class="details-grid">
-
-            <div class="detail-card reveal">
-
-                <div class="detail-icon">
-                    ♡
-                </div>
-
-                <h3>தேதி</h3>
-
-                <h4>Date</h4>
-
-                <p>
-                    15 July 2027
-                </p>
-
-                <span>
-                    Thursday
-                </span>
-
-            </div>
-
-
-            <div class="detail-card reveal">
-
-                <div class="detail-icon">
-                    ◷
-                </div>
-
-                <h3>நேரம்</h3>
-
-                <h4>Time</h4>
-
-                <p>
-                    10:30 AM – 11:30 AM
-                </p>
-
-                <span>
-                    காலை 10:30 – 11:30
-                </span>
-
-            </div>
-
-
-            <div class="detail-card reveal">
-
-                <div class="detail-icon">
-                    ♧
-                </div>
-
-                <h3>இடம்</h3>
-
-                <h4>Location</h4>
-
-                <p>
-                    Valasaravakkam
-                </p>
-
-                <span>
-                    India 🇮🇳
-                </span>
-
-            </div>
-
-        </div>
-
-
-        <div class="location-card reveal">
-
-            <div class="location-glow"></div>
-
-            <span class="location-pin">📍</span>
-
-            <h3>
-                Valasaravakkam, India
-            </h3>
-
-            <p>
-                திருமண நிகழ்வு நடைபெறும் இடம்
-            </p>
-
-            <p>
-                Wedding Ceremony Venue
-            </p>
-
-            <button onclick="showLocationMessage()">
-                VIEW LOCATION
-            </button>
-
-        </div>
-
-    </section>
-
-
-    <!-- ============================= -->
-    <!-- COUPLE -->
-    <!-- ============================= -->
-
-    <section class="couple-section">
-
-        <div class="section-title reveal">
-
-            <span>♡</span>
-
-            <p>மணமக்கள்</p>
-
-            <h2>The Couple</h2>
-
-            <span>♡</span>
-
-        </div>
-
-
-        <div class="couple">
-
-            <div class="person reveal">
-
-                <div class="person-image">
-
-                    <img src="assets/couple.jpg" alt="Groom">
-
-                    <div class="image-ring"></div>
-
-                </div>
-
-                <p class="role">
-                    மணமகன்
-                </p>
-
-                <h2>
-                    விஜயருபன்
-                </h2>
-
-                <h3>
-                    Vijayaruban
-                </h3>
-
-            </div>
-
-
-            <div class="heart-between">
-                ♥
-            </div>
-
-
-            <div class="person reveal">
-
-                <div class="person-image">
-
-                    <img src="assets/couple.jpg" alt="Bride">
-
-                    <div class="image-ring"></div>
-
-                </div>
-
-                <p class="role">
-                    மணமகள்
-                </p>
-
-                <h2>
-                    மதுயாலினி
-                </h2>
-
-                <h3>
-                    Mathuyalini
-                </h3>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ============================= -->
-    <!-- FAMILIES -->
-    <!-- ============================= -->
-
-    <section id="families" class="families-section">
-
-        <div class="section-title reveal">
-
-            <span>❦</span>
-
-            <p>எங்கள் குடும்பங்கள்</p>
-
-            <h2>Our Families</h2>
-
-            <span>❦</span>
-
-        </div>
-
-
-        <div class="families">
-
-            <div class="family-card groom-family reveal">
-
-                <div class="family-symbol">
-                    ✦
-                </div>
-
-                <p>
-                    மணமகன் குடும்பத்தினர்
-                </p>
-
-                <h2>
-                    திரு. அமிர்தலிங்கம்
-                    <br>
-                    &amp;
-                    <br>
-                    திருமதி. சத்தியதேவி
-                </h2>
-
-                <span>
-                    Amirthalingam &amp; Sathiadevi
-                </span>
-
-                <small>
-                    Vavuniya
-                </small>
-
-            </div>
-
-
-            <div class="family-card bride-family reveal">
-
-                <div class="family-symbol">
-                    ✦
-                </div>
-
-                <p>
-                    மணமகள் குடும்பத்தினர்
-                </p>
-
-                <h2>
-                    திரு. சிவகுமார்
-                    <br>
-                    &amp;
-                    <br>
-                    திருமதி. விசித்திரா
-                </h2>
-
-                <span>
-                    Sivakumar &amp; Visithira
-                </span>
-
-                <small>
-                    France
-                </small>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ============================= -->
-    <!-- STORY -->
-    <!-- ============================= -->
-
-    <section id="story" class="story-section">
-
-        <div class="story-overlay"></div>
-
-        <div class="story-content reveal">
-
-            <span class="story-quote">
-                “
-            </span>
-
-            <p class="section-tamil">
-                எங்கள் கதை...
-            </p>
-
-            <h2>
-                Our Story
-            </h2>
-
-            <p>
-                சில சந்திப்புகள் தற்செயலாக தோன்றலாம்...
-                ஆனால் சில மனிதர்கள் நம் வாழ்க்கையில்
-                என்றென்றும் இருப்பதற்காகவே வருகிறார்கள்.
-            </p>
-
-            <p>
-                Some moments happen by chance,
-                but some people enter our lives
-                to become our forever.
-            </p>
-
-            <div class="story-line"></div>
-
-            <strong>
-                Vijayaruban
-                <span>♡</span>
-                Mathuyalini
-            </strong>
-
-        </div>
-
-    </section>
-
-
-    <!-- ============================= -->
-    <!-- GALLERY -->
-    <!-- ============================= -->
-
-    <section id="gallery" class="gallery-section">
-
-        <div class="section-title reveal">
-
-            <span>✧</span>
-
-            <p>எங்கள் நினைவுகள்</p>
-
-            <h2>Our Memories</h2>
-
-            <span>✧</span>
-
-        </div>
-
-
-        <div class="gallery">
-
-            <div class="gallery-item reveal">
-                <img src="assets/photo1.jpg" alt="">
-            </div>
-
-            <div class="gallery-item tall reveal">
-                <img src="assets/photo2.jpg" alt="">
-            </div>
-
-            <div class="gallery-item reveal">
-                <img src="assets/photo3.jpg" alt="">
-            </div>
-
-            <div class="gallery-item wide reveal">
-                <img src="assets/couple.jpg" alt="">
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ============================= -->
-    <!-- FINAL INVITATION -->
-    <!-- ============================= -->
-
-    <section class="final-section">
-
-        <div class="final-particles"></div>
-
-        <div class="final-content reveal">
-
-            <div class="final-om">
-                ॐ
-            </div>
-
-            <p>
-                உங்கள் வருகையே
-                எங்கள் மகிழ்ச்சியின் நிறைவு.
-            </p>
-
-            <p class="english-final">
-                Your presence will make
-                our celebration complete.
-            </p>
-
-            <h2>
-                விஜயருபன்
-                <span>♥</span>
-                மதுயாலினி
-            </h2>
-
-            <p class="final-date">
-                15 • 07 • 2027
-            </p>
-
-            <div class="final-divider">
-                ✦ ❦ ✦
-            </div>
-
-            <p>
-                அன்புடன் அழைக்கிறோம்
-            </p>
-
-            <p>
-                With love, we invite you.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- FOOTER -->
-
-    <footer>
-
-        <p>
-            Made with ♥ for Vijayaruban & Mathuyalini
-        </p>
-
-        <span>
-            15.07.2027
-        </span>
-
-    </footer>
-
+  <nav class="navbar">
+    <div class="nav-logo">V ♥ M</div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#details">Details</a>
+      <a href="#couple">Couple</a>
+      <a href="#families">Families</a>
+      <a href="#story">Story</a>
+      <a href="#rsvp">RSVP</a>
+    </div>
+    <button id="musicBtn" aria-label="Music">♫</button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-mandala"></div>
+    <div class="hero-mandala m2"></div>
+    <div class="lotus l1" data-depth="30">❀</div>
+    <div class="lotus l2" data-depth="-40">✿</div>
+    <div class="lotus l3" data-depth="55">❁</div>
+
+    <div class="hero-content">
+      <p class="pop eyebrow">✦ திருமண அழைப்பிதழ் ✦</p>
+      <p class="pop en-eyebrow">WEDDING INVITATION</p>
+
+      <h1 class="ta-names">
+        <span class="word gold-text">விஜயருபன்</span>
+        <span class="heart-mid">♥</span>
+        <span class="word gold-text">மதுயாலினி</span>
+      </h1>
+
+      <h2 class="en-names">
+        <span class="split">Vijayaruban</span>
+        <b class="amp">&amp;</b>
+        <span class="split">Mathuyalini</span>
+      </h2>
+
+      <div class="pop divider"><i></i><span>❦</span><i></i></div>
+
+      <p class="pop hero-msg">இரண்டு இதயங்கள்... ஒரு அழகான வாழ்க்கை...</p>
+      <p class="pop hero-msg-en">Two hearts. One beautiful journey. A forever beginning.</p>
+
+      <div class="pop date-chip">
+        <strong>15</strong>
+        <div><span>JULY</span><small>2027 · THURSDAY</small></div>
+      </div>
+
+      <a href="#blessing" class="pop scroll-down">↓</a>
+    </div>
+  </section>
+
+  <!-- BLESSING + DIYAS -->
+  <section id="blessing" class="blessing">
+    <div class="mandala reveal" data-anim="zoom">✺</div>
+    <p class="section-tamil reveal">இறைவன் அருளால்...</p>
+    <p class="section-english reveal">With the blessings of the Almighty</p>
+    <p class="blessing-text reveal">எங்கள் வாழ்வின் புதிய அத்தியாயத்தை உங்களுடன் இணைந்து கொண்டாட அன்புடன் அழைக்கிறோம்.</p>
+    <p class="blessing-en reveal">With hearts full of love and happiness, we invite you to celebrate the beginning of our beautiful new chapter with us.</p>
+
+    <div class="diya-zone reveal">
+      <p class="diya-title">🪔 மூன்று தீபங்களை ஏற்றுங்கள் · <em>Light the three lamps</em></p>
+      <div class="diyas">
+        <button class="diya" aria-label="diya"><span class="flame"></span><span class="bowl"></span></button>
+        <button class="diya" aria-label="diya"><span class="flame"></span><span class="bowl"></span></button>
+        <button class="diya" aria-label="diya"><span class="flame"></span><span class="bowl"></span></button>
+      </div>
+      <p id="diyaMsg" class="diya-msg">ஒளி பிறந்தது! கொண்டாட்டம் தொடங்கட்டும் ✨<br /><em>Let the celebration begin!</em></p>
+    </div>
+  </section>
+
+  <!-- COUNTDOWN -->
+  <section class="countdown-section">
+    <p class="section-tamil reveal">இன்னும் எத்தனை நாட்கள்? ✨</p>
+    <p class="section-english reveal">Counting the moments until our forever...</p>
+    <div class="countdown reveal" data-anim="zoom">
+      <div class="time-box"><strong id="days">00</strong><span>Days</span><small>நாட்கள்</small></div>
+      <div class="time-box"><strong id="hours">00</strong><span>Hours</span><small>மணி</small></div>
+      <div class="time-box"><strong id="minutes">00</strong><span>Minutes</span><small>நிமிடங்கள்</small></div>
+      <div class="time-box"><strong id="seconds">00</strong><span>Seconds</span><small>விநாடிகள்</small></div>
+    </div>
+  </section>
+
+  <!-- DETAILS -->
+  <section id="details" class="details-section">
+    <div class="section-title reveal">
+      <span>✦</span><p>திருமண விவரங்கள்</p><h2>Wedding Details</h2>
+    </div>
+
+    <div class="details-grid">
+      <div class="detail-card reveal" data-anim="left" data-tilt>
+        <div class="detail-icon">♡</div>
+        <h3>தேதி</h3><h4>Date</h4>
+        <p>15 July 2027</p><span>Thursday · வியாழக்கிழமை</span>
+      </div>
+      <div class="detail-card reveal" data-tilt>
+        <div class="detail-icon">◷</div>
+        <h3>நேரம்</h3><h4>Time</h4>
+        <p>10:30 AM – 11:30 AM</p><span>காலை 10:30 – 11:30</span>
+      </div>
+      <div class="detail-card reveal" data-anim="right" data-tilt>
+        <div class="detail-icon">❖</div>
+        <h3>இடம்</h3><h4>Location</h4>
+        <p>Valasaravakkam</p><span>Chennai, India 🇮🇳</span>
+      </div>
+    </div>
+
+    <div class="location-card reveal" data-anim="zoom">
+      <h3>📍 Valasaravakkam, India</h3>
+      <p>திருமண நிகழ்வு நடைபெறும் இடம் · Wedding Ceremony Venue</p>
+      <div class="map-wrap">
+        <iframe loading="lazy" title="map"
+          src="https://www.google.com/maps?q=Valasaravakkam,Chennai&output=embed"></iframe>
+      </div>
+      <div class="btn-row">
+        <a class="gold-btn" target="_blank" rel="noopener"
+           href="https://www.google.com/maps/search/?api=1&query=Valasaravakkam+Chennai">வழி காட்டு · Directions</a>
+        <button class="gold-btn ghost" id="calBtn">📅 நாட்காட்டியில் சேர் · Add to Calendar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- COUPLE -->
+  <section id="couple" class="couple-section">
+    <div class="section-title reveal">
+      <span>♡</span><p>மணமக்கள்</p><h2>The Couple</h2>
+    </div>
+
+    <div class="couple">
+      <div class="person reveal" data-anim="left">
+        <div class="person-photo"><img src="assets/groom.jpg" alt="Groom" /></div>
+        <p class="role">மணமகன்</p>
+        <h2 class="gold-text">விஜயருபன்</h2>
+        <h3>Vijayaruban</h3>
+      </div>
+
+      <div class="couple-photo reveal" data-anim="zoom">
+        <span class="cp-ring"></span><span class="cp-ring two"></span>
+        <div class="cp-img"><img src="assets/couple.jpg" alt="Couple" /></div>
+        <div class="heart-between">♥</div>
+      </div>
+
+      <div class="person reveal" data-anim="right">
+        <div class="person-photo"><img src="assets/bride.jpg" alt="Bride" /></div>
+        <p class="role">மணமகள்</p>
+        <h2 class="gold-text">மதுயாலினி</h2>
+        <h3>Mathuyalini</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAMILIES -->
+  <section id="families" class="families-section">
+    <div class="section-title reveal">
+      <span>❦</span><p>எங்கள் குடும்பங்கள்</p><h2>Our Families</h2>
+    </div>
+    <div class="families">
+      <div class="family-card reveal" data-anim="left" data-tilt>
+        <div class="family-symbol">✦</div>
+        <p>மணமகன் குடும்பத்தினர்</p>
+        <h2>திரு. அமிர்தலிங்கம்<br />&amp;<br />திருமதி. சத்தியதேவி</h2>
+        <span>Amirthalingam &amp; Sathiadevi</span>
+        <small>Vavuniya</small>
+      </div>
+      <div class="family-card reveal" data-anim="right" data-tilt>
+        <div class="family-symbol">✦</div>
+        <p>மணமகள் குடும்பத்தினர்</p>
+        <h2>திரு. சிவகுமார்<br />&amp;<br />திருமதி. விசித்திரா</h2>
+        <span>Sivakumar &amp; Visithira</span>
+        <small>France</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section id="story" class="story-section">
+    <div class="story-content reveal" data-anim="zoom">
+      <span class="story-quote">“</span>
+      <p class="section-tamil">எங்கள் கதை...</p>
+      <h2>Our Story</h2>
+      <p class="story-p">சில சந்திப்புகள் தற்செயலாக தோன்றலாம்... ஆனால் சில மனிதர்கள் நம் வாழ்க்கையில் என்றென்றும் இருப்பதற்காகவே வருகிறார்கள்.</p>
+      <p class="story-p en">Some moments happen by chance, but some people enter our lives to become our forever.</p>
+      <div class="story-line"></div>
+      <strong class="gold-text">Vijayaruban ♡ Mathuyalini</strong>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section id="rsvp" class="rsvp-section">
+    <div class="section-title reveal">
+      <span>✉</span><p>வருகையை உறுதி செய்யுங்கள்</p><h2>Kindly RSVP</h2>
+    </div>
+    <div class="rsvp-card reveal" data-anim="zoom">
+      <input id="guestName" type="text" placeholder="உங்கள் பெயர் · Your name" />
+      <div class="stepper">
+        <button id="minus" type="button">−</button>
+        <span><b id="guestNum">1</b> <em>guest(s) · விருந்தினர்</em></span>
+        <button id="plus" type="button">+</button>
+      </div>
+      <button id="rsvpBtn" class="gold-btn">WhatsApp-இல் அனுப்பு · Send via WhatsApp</button>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section class="final-section">
+    <div class="final-content reveal" data-anim="zoom">
+      <div class="final-om">ॐ</div>
+      <p>உங்கள் வருகையே எங்கள் மகிழ்ச்சியின் நிறைவு.</p>
+      <p class="en">Your presence will make our celebration complete.</p>
+      <h2 class="gold-text">விஜயருபன் ♥ மதுயாலினி</h2>
+      <p class="final-date">15 • 07 • 2027</p>
+      <div class="final-divider">✦ ❦ ✦</div>
+      <p>அன்புடன் அழைக்கிறோம்</p>
+      <p class="en">With love, we invite you.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ♥ for Vijayaruban &amp; Mathuyalini</p>
+    <span>15.07.2027</span>
+  </footer>
 </main>
 
-
-<!-- MUSIC -->
-
 <audio id="weddingMusic" loop>
-    <source src="assets/wedding-music.mp3" type="audio/mpeg">
+  <source src="assets/wedding-music.mp3" type="audio/mpeg" />
 </audio>
 
-
-<!-- TOAST -->
-
-<div id="toast">
-    📍 Venue details will be added soon
-</div>
-
+<div id="toast"></div>
 
 <script src="script.js"></script>
-
 </body>
 </html>
